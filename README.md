@@ -43,6 +43,10 @@ de ataque, buffs, perfis ou autenticação nesta separação.
 O link antigo permanece disponível para não quebrar mensagens enviadas aos clientes.
 Para novos compartilhamentos, utilize os links deste repositório.
 
+Os patchnotes anexos são os originais. A indicação de pre-release neles refere-se
+à publicação antiga junto da edição com IA. Aqui a Low tem seu próprio repositório
+e sua própria última release, sem relação com o canal automático da edição normal.
+
 SHA-256 do instalador:
 `05fa4c9ed61e5b4c0e6fabd2a3d878ace6e7dfee2c0962f8f0bb2060e65b65eb`.
 
