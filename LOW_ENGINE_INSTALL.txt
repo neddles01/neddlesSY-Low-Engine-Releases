@@ -1,0 +1,28 @@
+neddlesSY Low Engine 1.8.10 - edicao independente, sem auto-update
+
+REQUISITO: mobs rosas no cliente. Esta edicao usa deteccao por cor/cursor;
+NAO usa IA para detectar monstros com texturas normais.
+
+Feche o macro antes de instalar. O jogo pode continuar aberto.
+Instale na pasta exclusiva sugerida: neddlesSY Low Engine.
+Abra o atalho "neddlesSY Low Engine", nao o atalho da versao normal.
+Organize as skills no jogo para corresponder ao perfil configurado no macro.
+Os perfis continuam configuraveis: nenhum atalho de skill e imposto ou alterado.
+
+Mantem pocoes, buffs/bolha, reposicao e rotina de morte/Cidade.
+Sem ONNX Runtime, pesos neurais ou updater. Atualizacoes desta edicao sao
+manuais, por outro instalador Low Engine explicitamente identificado.
+
+Preferencias separadas em %LOCALAPPDATA%\neddlesSY\settings-low.json
+(settings-low_N.json para instancias adicionais). Na primeira abertura,
+copia as preferencias da versao normal sem modificar settings.json.
+Licenca e calibracao do HUD sao compartilhadas. Keygen continua obrigatorio;
+"sem auto-update" nao significa sem autenticacao ou funcionamento offline.
+
+Instalador/desinstalador, pasta e atalhos independentes. Este desinstalador
+NAO apaga licenca, calibracao ou preferencias compartilhadas.
+Para voltar a edicao normal, feche a Low e abra o atalho normal.
+Nao rode as duas edicoes na mesma instancia ao mesmo tempo.
+
+Teste supervisionado recomendado: ataque, pocoes, todos os buffs, reposicao
+e retorno a cidade. Desempenho real depende da maquina e do jogo.

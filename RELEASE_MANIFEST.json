@@ -1,0 +1,14 @@
+{
+  "version": "1.8.10",
+  "edition": "neddlesSY Low Engine",
+  "distribution_separated_on": "2026-10-14",
+  "source_release": "https://github.com/neddles01/SistemaGEM-Releases/releases/tag/low-engine-v1.8.10",
+  "automatic_updates": false,
+  "recompiled": false,
+  "assets": [
+    {"name": "LowEngine-neddlesSY-v1.8.10-Setup.exe", "bytes": 160563256, "sha256": "05fa4c9ed61e5b4c0e6fabd2a3d878ace6e7dfee2c0962f8f0bb2060e65b65eb"},
+    {"name": "LOW_ENGINE_INSTALL.txt", "bytes": 1527, "sha256": "eb79599eed32285762b7341fea3d12c80974007891d7d339e06221068c93a3bb"},
+    {"name": "PATCHNOTES_LOW_ENGINE.md", "bytes": 1169, "sha256": "fa023aa61d3c894edb3040ff08d491cebaddcb30091dbee257390784f570312a"},
+    {"name": "SHA256_LOW_ENGINE.txt", "bytes": 104, "sha256": "d3a9d64a6b3f9fbe6cb7bb0a2dc4068c3c3601ce6a0364262ae30447d8a1c090"}
+  ]
+}
