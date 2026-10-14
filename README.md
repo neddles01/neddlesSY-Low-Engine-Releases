@@ -29,6 +29,21 @@ Não há updater no instalador Low. O atalho abre o launcher diretamente.
 Atualizações Low são manuais por outro instalador Low explicitamente identificado.
 Não foi usada versão artificialmente alta para evitar atualizações.
 
+### Atualização da principal não se aplica à Low
+
+**Se a versão principal com IA receber uma atualização, a Low permanece como está.**
+Os canais são independentes; não existe obrigação de trocar de edição para
+acompanhar o número de versão da principal.
+
+- Não instale `Setup-neddlesSY-v*.exe` ou `Setup-SistemaGEM-v*.exe` sobre a
+  pasta Low: são instaladores da edição principal, não atualizações Low.
+- Para atualizar a Low, aguarde uma release neste repositório, feche o macro
+  e instale somente o EXE explicitamente identificado como **Low Engine**.
+- Use o atalho **neddlesSY Low Engine**. O atalho normal pode chamar o updater
+  da edição com IA e não deve ser usado como acesso à Low.
+- Mesmo número de versão não significa mesmo pacote. Se quiser usar a principal,
+  faça a troca intencionalmente, em sua pasta separada, sem substituir a Low.
+
 A licença Keygen continua obrigatória; ausência de updater não significa modo
 offline. Licença e calibração são compartilhadas com a edição normal, enquanto
 as preferências Low ficam em `settings-low.json` (ou por instância).
