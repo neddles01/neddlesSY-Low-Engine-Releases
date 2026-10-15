@@ -1,69 +1,54 @@
 # neddlesSY Low Engine
 
-Repositório exclusivo de distribuição da **Low Engine**, a edição clássica para
-Priston Tale com mobs rosas. Não contém o código-fonte nem a versão principal com IA.
+Versão atual: **1.8.11** — ataque persistente e atualizador próprio.
 
-## Download
+## Download e atualização
 
-- [Instalador Low Engine 1.8.10 (.exe)](https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.10/LowEngine-neddlesSY-v1.8.10-Setup.exe)
-- [Última release e arquivos](https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/latest)
-- [Instruções de instalação](LOW_ENGINE_INSTALL.txt)
-- [Patchnotes](PATCHNOTES_LOW_ENGINE.md)
-- [SHA-256 do instalador](SHA256_LOW_ENGINE.txt)
+[Instalador Low Engine 1.8.11 (.exe)](https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.11/LowEngine-neddlesSY-v1.8.11-Setup.exe)
+
+[Notas completas e arquivos da release](https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/tag/1.8.11)
+
+Feche o macro e instale na pasta exclusiva **neddlesSY Low Engine**.
+Não precisa desinstalar. Quem usa a Low 1.8.10 deve instalar esta entrega
+manualmente uma vez para receber o updater. Nas próximas versões, o atalho
+Low poderá oferecer as atualizações. Os hashes estão em SHA256_LOW_ENGINE.txt.
 
 ## Como usar
 
-1. Prepare uma cópia do cliente Priston com a alteração de mobs rosas.
-2. Feche o macro antes de instalar. Use a pasta exclusiva sugerida pelo instalador.
-3. Abra o atalho **neddlesSY Low Engine**, não o da versão principal.
-4. Confira classe, teclas das skills e calibração antes de iniciar.
+1. Faça uma cópia da pasta do Priston e aplique a alteração de mobs rosas nessa cópia.
+2. Abra o jogo pela pasta modificada.
+3. Abra o atalho **neddlesSY Low Engine** e confira classe, skills e calibração.
+4. Após encontrar uma hitbox com cursor vermelho, o ataque mantém até dez
+   cliques a cada 0,25 s. Suporte, foco, contexto, movimento manual e stop
+   podem interromper; ao concluir, o alvo precisa ser adquirido novamente.
 
-A Low usa detecção por cor/cursor, sem ONNX Runtime ou pesos de IA. Mantém
-poções, buffs, reposição e morte/Cidade. Não reconhece monstros de textura normal
-por IA. A versão principal com IA continua no repositório
-[SistemaGEM-Releases](https://github.com/neddles01/SistemaGEM-Releases/releases/latest).
+A Low usa cor/cursor, sem ONNX Runtime, modelo neural ou GPU dedicada.
+Mobs rosas continuam obrigatórios. Mantidos input orgânico, poções,
+bolha/buffs, reposição e morte/Cidade. Ganho de DPS depende do teste real.
 
-## Sem atualização automática
+## Atualizador exclusivo Low
 
-Não há updater no instalador Low. O atalho abre o launcher diretamente.
-Atualizações Low são manuais por outro instalador Low explicitamente identificado.
-Não foi usada versão artificialmente alta para evitar atualizações.
+O novo atalho consulta somente este repositório, inclusive na contingência.
+Aceita apenas `LowEngine-neddlesSY-v<VERSÃO>-Setup.exe` com URL oficial,
+tamanho e SHA-256 válidos. A atualização é oferecida ao abrir; pode continuar
+com a Low local. Falha na consulta não substitui a autenticação online Keygen.
 
-### Atualização da principal não se aplica à Low
+**Atualização da principal não atualiza a Low nem obriga a trocar de edição.**
+Nunca use `Setup-neddlesSY-v*.exe` ou `Setup-SistemaGEM-v*.exe` sobre a pasta Low:
+esses instaladores são da [edição principal com IA](https://github.com/neddles01/SistemaGEM-Releases/releases/latest).
+Mesmo número de versão não significa mesmo pacote.
 
-**Se a versão principal com IA receber uma atualização, a Low permanece como está.**
-Os canais são independentes; não existe obrigação de trocar de edição para
-acompanhar o número de versão da principal.
+AppId, pasta, atalhos e desinstalador Low são próprios. Preferências ficam em
+settings-low.json (ou por instância); licença e calibração são compartilhadas
+com a edição normal. A licença online continua obrigatória.
 
-- Não instale `Setup-neddlesSY-v*.exe` ou `Setup-SistemaGEM-v*.exe` sobre a
-  pasta Low: são instaladores da edição principal, não atualizações Low.
-- Para atualizar a Low, aguarde uma release neste repositório, feche o macro
-  e instale somente o EXE explicitamente identificado como **Low Engine**.
-- Use o atalho **neddlesSY Low Engine**. O atalho normal pode chamar o updater
-  da edição com IA e não deve ser usado como acesso à Low.
-- Mesmo número de versão não significa mesmo pacote. Se quiser usar a principal,
-  faça a troca intencionalmente, em sua pasta separada, sem substituir a Low.
+## Histórico e integridade
 
-A licença Keygen continua obrigatória; ausência de updater não significa modo
-offline. Licença e calibração são compartilhadas com a edição normal, enquanto
-as preferências Low ficam em `settings-low.json` (ou por instância).
+A release 1.8.10 permanece disponível. A separação para este repositório em
+14/10/2026 não recompilou aquele instalador; a 1.8.11 é a entrega nova com
+persistência e updater. O link Low antigo no repositório normal foi preservado.
 
-## Separação e integridade
+Este repositório contém apenas documentação, metadados e executáveis em Releases.
+Não recebe código privado, configurações, calibrações, logs ou credenciais.
 
-Esta distribuição foi criada em **14/10/2026**, copiando sem recompilar os quatro
-assets da release anterior `low-engine-v1.8.10` de `SistemaGEM-Releases`. O EXE é
-o mesmo instalador de 160.563.256 bytes, com hash conferido; não há novas mudanças
-de ataque, buffs, perfis ou autenticação nesta separação.
-
-O link antigo permanece disponível para não quebrar mensagens enviadas aos clientes.
-Para novos compartilhamentos, utilize os links deste repositório.
-
-Os patchnotes anexos são os originais. A indicação de pre-release neles refere-se
-à publicação antiga junto da edição com IA. Aqui a Low tem seu próprio repositório
-e sua própria última release, sem relação com o canal automático da edição normal.
-
-SHA-256 do instalador:
-`05fa4c9ed61e5b4c0e6fabd2a3d878ace6e7dfee2c0962f8f0bb2060e65b65eb`.
-
-Os executáveis ficam em **Releases**, não no histórico Git. Este repositório
-versiona somente documentação e metadados de distribuição.
+[Instruções](LOW_ENGINE_INSTALL.txt) · [Patchnotes](PATCHNOTES_LOW_ENGINE.md)

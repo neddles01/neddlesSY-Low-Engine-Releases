@@ -1,14 +1,38 @@
 {
-  "version": "1.8.10",
+  "version": "1.8.11",
   "edition": "neddlesSY Low Engine",
-  "distribution_separated_on": "2026-10-14",
-  "source_release": "https://github.com/neddles01/SistemaGEM-Releases/releases/tag/low-engine-v1.8.10",
-  "automatic_updates": false,
-  "recompiled": false,
+  "automatic_updates": true,
+  "automatic_update_check": true,
+  "user_confirmation_required": true,
+  "update_repository": "neddles01/neddlesSY-Low-Engine-Releases",
+  "first_manual_upgrade_from_1_8_10": true,
+  "onnxruntime": false,
+  "model_weights": false,
+  "source_tests": 414,
+  "suite_with_native_extensions": 414,
+  "direct_native_probes": 26,
+  "real_installer_tested": false,
+  "new_low_gameplay_tested": false,
   "assets": [
-    {"name": "LowEngine-neddlesSY-v1.8.10-Setup.exe", "bytes": 160563256, "sha256": "05fa4c9ed61e5b4c0e6fabd2a3d878ace6e7dfee2c0962f8f0bb2060e65b65eb"},
-    {"name": "LOW_ENGINE_INSTALL.txt", "bytes": 1527, "sha256": "eb79599eed32285762b7341fea3d12c80974007891d7d339e06221068c93a3bb"},
-    {"name": "PATCHNOTES_LOW_ENGINE.md", "bytes": 1169, "sha256": "fa023aa61d3c894edb3040ff08d491cebaddcb30091dbee257390784f570312a"},
-    {"name": "SHA256_LOW_ENGINE.txt", "bytes": 104, "sha256": "d3a9d64a6b3f9fbe6cb7bb0a2dc4068c3c3601ce6a0364262ae30447d8a1c090"}
+    {
+      "name": "LowEngine-neddlesSY-v1.8.11-Setup.exe",
+      "bytes": 190405343,
+      "sha256": "abba1f14d8ec83b2b4be48696cb604bd71abf45c3cdb5bf95565c24dd545a48e"
+    },
+    {
+      "name": "LOW_ENGINE_INSTALL.txt",
+      "bytes": 1689,
+      "sha256": "da6df8b410620bb131fe7a473d80e0e0c4ef3a45cf9a7fdb1d463a6ee2322620"
+    },
+    {
+      "name": "PATCHNOTES_LOW_ENGINE.md",
+      "bytes": 2260,
+      "sha256": "f3603d4b39f82e1b03863c0037f4cab208592f91a484d98e0959d7abd36c420c"
+    },
+    {
+      "name": "SHA256_LOW_ENGINE.txt",
+      "bytes": 104,
+      "sha256": "b3fe3678286bef3aac93f3c551524f9a621c26597babecc8279324061bb801aa"
+    }
   ]
 }

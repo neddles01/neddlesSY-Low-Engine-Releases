@@ -1,28 +1,28 @@
-neddlesSY Low Engine 1.8.10 - edicao independente, sem auto-update
+neddlesSY Low Engine 1.8.11 - ataque persistente e updater exclusivo Low
 
-REQUISITO: mobs rosas no cliente. Esta edicao usa deteccao por cor/cursor;
-NAO usa IA para detectar monstros com texturas normais.
+REQUISITO: mobs rosas no cliente. Faca uma copia da pasta do Priston e aplique
+nessa copia a alteracao de mobs rosas. Abra o jogo pela pasta modificada.
+Esta edicao nao usa IA neural para detectar monstros com texturas normais.
 
-Feche o macro antes de instalar. O jogo pode continuar aberto.
-Instale na pasta exclusiva sugerida: neddlesSY Low Engine.
-Abra o atalho "neddlesSY Low Engine", nao o atalho da versao normal.
-Organize as skills no jogo para corresponder ao perfil configurado no macro.
-Os perfis continuam configuraveis: nenhum atalho de skill e imposto ou alterado.
+Feche o macro antes de instalar. Instale na pasta exclusiva sugerida:
+neddlesSY Low Engine. Nao e necessario desinstalar para atualizar.
+Abra somente o atalho "neddlesSY Low Engine". Confira classe, skills e calibracao.
 
-Mantem pocoes, buffs/bolha, reposicao e rotina de morte/Cidade.
-Sem ONNX Runtime, pesos neurais ou updater. Atualizacoes desta edicao sao
-manuais, por outro instalador Low Engine explicitamente identificado.
+Quem usava a Low 1.8.10 precisa instalar esta entrega manualmente uma vez para
+receber o updater. Depois, o atalho Low podera oferecer novas atualizacoes Low.
+Ele consulta apenas neddlesSY-Low-Engine-Releases, valida nome, origem, tamanho e
+SHA-256, e nunca seleciona os instaladores normais da versao com IA.
+Atualizacao e opcional; falha na consulta permite abrir a Low local.
+A verificacao online Keygen continua obrigatoria, independentemente do updater.
+
+Apos cursor vermelho: ate dez cliques a cada0,25 s, primeiro/ultimo em2,25 s.
+Pocoes, bolha/buffs, reposicao, morte/Cidade, foco e stop mantem prioridade.
+Movimento e cliques sustentados organicos preservados. F2 respeita cooldown.
 
 Preferencias separadas em %LOCALAPPDATA%\neddlesSY\settings-low.json
-(settings-low_N.json para instancias adicionais). Na primeira abertura,
-copia as preferencias da versao normal sem modificar settings.json.
-Licenca e calibracao do HUD sao compartilhadas. Keygen continua obrigatorio;
-"sem auto-update" nao significa sem autenticacao ou funcionamento offline.
+(settings-low_N.json para outras instancias). Licenca e calibracao compartilhadas
+com a principal, sem remapeamento automatico de skills ou troca de perfis salvos.
 
-Instalador/desinstalador, pasta e atalhos independentes. Este desinstalador
-NAO apaga licenca, calibracao ou preferencias compartilhadas.
-Para voltar a edicao normal, feche a Low e abra o atalho normal.
-Nao rode as duas edicoes na mesma instancia ao mesmo tempo.
-
-Teste supervisionado recomendado: ataque, pocoes, todos os buffs, reposicao
-e retorno a cidade. Desempenho real depende da maquina e do jogo.
+Pasta, AppId, atalhos e desinstalador Low independentes. O desinstalador Low nao
+apaga os dados compartilhados. Nao rode as duas edicoes na mesma instancia.
+Nao use Setup-neddlesSY/Setup-SistemaGEM para atualizar a Low: sao da edicao IA.

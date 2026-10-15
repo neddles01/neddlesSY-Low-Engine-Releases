@@ -1,0 +1,11 @@
+{
+  "tag_name": "1.8.11",
+  "assets": [
+    {
+      "name": "LowEngine-neddlesSY-v1.8.11-Setup.exe",
+      "browser_download_url": "https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.11/LowEngine-neddlesSY-v1.8.11-Setup.exe",
+      "size": 190405343,
+      "digest": "sha256:abba1f14d8ec83b2b4be48696cb604bd71abf45c3cdb5bf95565c24dd545a48e"
+    }
+  ]
+}
