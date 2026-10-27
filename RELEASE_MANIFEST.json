@@ -1,38 +1,30 @@
 {
-  "version": "1.8.11",
   "edition": "neddlesSY Low Engine",
-  "automatic_updates": true,
-  "automatic_update_check": true,
-  "user_confirmation_required": true,
-  "update_repository": "neddles01/neddlesSY-Low-Engine-Releases",
-  "first_manual_upgrade_from_1_8_10": true,
-  "onnxruntime": false,
-  "model_weights": false,
-  "source_tests": 414,
-  "suite_with_native_extensions": 414,
-  "direct_native_probes": 26,
-  "real_installer_tested": false,
-  "new_low_gameplay_tested": false,
-  "assets": [
-    {
-      "name": "LowEngine-neddlesSY-v1.8.11-Setup.exe",
-      "bytes": 190405343,
-      "sha256": "abba1f14d8ec83b2b4be48696cb604bd71abf45c3cdb5bf95565c24dd545a48e"
+  "version": "1.8.12",
+  "installer": {
+    "name": "LowEngine-neddlesSY-v1.8.12-Setup.exe",
+    "browser_download_url": "https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.12/LowEngine-neddlesSY-v1.8.12-Setup.exe",
+    "size": 190458914,
+    "digest": "sha256:89ce9578bc753266bff23971c17c0ac55658d0c382526e8751f8362797213608"
+  },
+  "files": {
+    "LowEngine-neddlesSY-v1.8.12-Setup.exe": {
+      "bytes": 190458914,
+      "sha256": "89ce9578bc753266bff23971c17c0ac55658d0c382526e8751f8362797213608"
     },
-    {
-      "name": "LOW_ENGINE_INSTALL.txt",
-      "bytes": 1689,
-      "sha256": "da6df8b410620bb131fe7a473d80e0e0c4ef3a45cf9a7fdb1d463a6ee2322620"
+    "LOW_ENGINE_INSTALL.txt": {
+      "bytes": 1514,
+      "sha256": "f9e04db088eb86e277d7a519969e02f3adfd6a0944e535e61765a1f4c2400b9a"
     },
-    {
-      "name": "PATCHNOTES_LOW_ENGINE.md",
-      "bytes": 2260,
-      "sha256": "f3603d4b39f82e1b03863c0037f4cab208592f91a484d98e0959d7abd36c420c"
+    "PATCHNOTES_LOW_ENGINE.md": {
+      "bytes": 1966,
+      "sha256": "9c3a0b7589425a19eafbf4e250337848d9b8259e7695c596f7a403b0ef0b06d6"
     },
-    {
-      "name": "SHA256_LOW_ENGINE.txt",
+    "SHA256_LOW_ENGINE.txt": {
       "bytes": 104,
-      "sha256": "b3fe3678286bef3aac93f3c551524f9a621c26597babecc8279324061bb801aa"
+      "sha256": "c9c99b1e1da5b45668ca84b63259c422716af04a919e284ea04c8daaa1084dc4"
     }
-  ]
+  },
+  "normal_edition_unchanged": true,
+  "installer_executed": false
 }
