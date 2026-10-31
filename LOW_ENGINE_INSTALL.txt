@@ -1,4 +1,4 @@
-neddlesSY Low Engine 1.8.12 - busca mais ativa e alternancia de alvos
+neddlesSY Low Engine 1.8.13 - correcao de autenticacao e atualizacao
 
 REQUISITO: cliente com mobs rosas e HUD do pacote correspondente.
 Faca uma copia da pasta do Priston e aplique a alteracao nessa copia.
@@ -8,7 +8,8 @@ Feche o macro antes de instalar. Use a pasta exclusiva sugerida:
 neddlesSY Low Engine. Nao precisa desinstalar para atualizar.
 Abra pelo atalho neddlesSY Low Engine e confira classe, skills e calibracao.
 
-A Low1.8.11 ja possui atualizador proprio e pode oferecer esta atualizacao.
+A Low tem atualizador proprio. Se a oferta nao aparecer, baixe o instalador
+manual: versoes antigas podem ter falha na consulta por conexao segura.
 Quem usa Low1.8.10 precisa instalar manualmente para receber o atualizador.
 O atalho Low consulta somente neddlesSY-Low-Engine-Releases e valida nome,
 origem, tamanho e SHA256 do instalador. Atualizacao opcional; falha na consulta

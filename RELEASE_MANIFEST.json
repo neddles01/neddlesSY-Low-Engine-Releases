@@ -1,28 +1,28 @@
 {
   "edition": "neddlesSY Low Engine",
-  "version": "1.8.12",
+  "version": "1.8.13",
   "installer": {
-    "name": "LowEngine-neddlesSY-v1.8.12-Setup.exe",
-    "browser_download_url": "https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.12/LowEngine-neddlesSY-v1.8.12-Setup.exe",
-    "size": 190458914,
-    "digest": "sha256:89ce9578bc753266bff23971c17c0ac55658d0c382526e8751f8362797213608"
+    "name": "LowEngine-neddlesSY-v1.8.13-Setup.exe",
+    "browser_download_url": "https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.13/LowEngine-neddlesSY-v1.8.13-Setup.exe",
+    "size": 190479165,
+    "digest": "sha256:037f53e5c5714d2d29b3d4fa5e4fbbf798bb8e2e00f322b6a3b886289848f147"
   },
   "files": {
-    "LowEngine-neddlesSY-v1.8.12-Setup.exe": {
-      "bytes": 190458914,
-      "sha256": "89ce9578bc753266bff23971c17c0ac55658d0c382526e8751f8362797213608"
+    "LowEngine-neddlesSY-v1.8.13-Setup.exe": {
+      "bytes": 190479165,
+      "sha256": "037f53e5c5714d2d29b3d4fa5e4fbbf798bb8e2e00f322b6a3b886289848f147"
     },
     "LOW_ENGINE_INSTALL.txt": {
-      "bytes": 1514,
-      "sha256": "f9e04db088eb86e277d7a519969e02f3adfd6a0944e535e61765a1f4c2400b9a"
+      "bytes": 1586,
+      "sha256": "126cc0afb710ed9b6bbffc58112cb71ad6d3b59366a412fd55db874cd7d14fec"
     },
     "PATCHNOTES_LOW_ENGINE.md": {
-      "bytes": 1966,
-      "sha256": "9c3a0b7589425a19eafbf4e250337848d9b8259e7695c596f7a403b0ef0b06d6"
+      "bytes": 1552,
+      "sha256": "0ce56dad92cb0c51caadb90d3af64861307ac476bc8f841da9de9cccffa9cef2"
     },
     "SHA256_LOW_ENGINE.txt": {
       "bytes": 104,
-      "sha256": "c9c99b1e1da5b45668ca84b63259c422716af04a919e284ea04c8daaa1084dc4"
+      "sha256": "c425b927ce7659ab4efff4f8de3cd3a7a3f58061afed56b55618bc10c16249e4"
     }
   },
   "normal_edition_unchanged": true,

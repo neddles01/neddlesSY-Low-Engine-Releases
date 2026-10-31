@@ -1,29 +1,14 @@
-# neddlesSY Low Engine 1.8.12 — Busca mais ativa e alternância de alvos
+# neddlesSY Low Engine 1.8.13 — Correção de autenticação e atualização
 
-- **Busca mais distribuída:** após cada rajada, a rotina favorece outras regiões
-  da área de combate, incluindo o lado oposto, reduzindo a insistência no mesmo ponto.
-- **Melhor distribuição em grupos de mobs:** amplia os pontos de busca quando
-  vários monstros rosas ficam sobrepostos, situação observada em Lost 2.
-- **Novas tentativas quando a hitbox não responde:** a presença de rosa deixa de
-  impedir a exploração de outros pontos quando os contatos testados não ativam
-  o cursor vermelho. A confirmação continua sendo exigida antes da rajada.
-- **Movimento orgânico:** mantém a duração variável e usa o controlador legado
-  de movimento relativo, com chegada conferida e limites da janela.
-- **Ataque e suporte preservados:** mantém até dez cliques a cada 0,25 s após
-  confirmar o contato, F1/F2 e cooldown, além da prioridade de poções, bolha,
-  buffs, reposição, morte/Cidade e parada.
-- **Diagnóstico ampliado:** os logs distinguem busca, confirmação de contato e rajada.
+- Corrige uma falha de conexão segura que podia impedir a validação de uma máquina já ativada e exibir a janela de licença novamente.
+- Corrige a mesma falha no atualizador próprio da Low.
+- Melhora a estabilidade do código de máquina diante de falhas temporárias de leitura do Windows. Códigos de máquinas com leitura saudável mantêm a compatibilidade com a ativação existente.
+- Mantém a busca distribuída, movimentos orgânicos, rajadas de ataque, F1/F2 e prioridade de poções, buffs, bolha, reposição e morte/Cidade.
 
-A Low continua exigindo o cliente com mobs rosas e o HUD correspondente.
-Não usa IA neural, ONNX Runtime nem GPU dedicada. O canal de atualização é
-exclusivo da Low e não instala a edição principal com IA.
+A licença online continua obrigatória. Não é necessário cadastrar outro código por causa de uma falha de conexão. Ativações antigas feitas com uma leitura defeituosa podem exigir conferência do suporte.
 
-Testes automáticos de fonte, módulos compilados e auditoria do pacote aprovados.
-O comportamento real em Lost 2 e em outros mapas será acompanhado pelos testes
-e logs dos usuários; não há ganho de DPS garantido por contagem de cliques.
+A Low continua exigindo mobs rosas e o HUD correspondente. Seu canal de atualização é exclusivo e não instala a edição principal com IA.
 
-**Para atualizar:** quem usa a Low 1.8.11 pode abrir o atalho neddlesSY Low Engine
-e aceitar a atualização, ou usar o instalador oficial abaixo. Quem ainda usa a
-Low 1.8.10 deve instalar manualmente para receber o atualizador próprio.
-Feche o macro antes de instalar e mantenha a pasta exclusiva neddlesSY Low Engine.
-Não precisa desinstalar nem trocar os perfis para atualizar.
+**Como atualizar:** feche o macro e execute o instalador oficial como administrador sobre a pasta existente da Low, sem desinstalar. Como a falha também pode afetar o atualizador antigo, use o download manual se a atualização não aparecer. Abra pelo atalho neddlesSY Low Engine e confira a versão 1.8.13.
+
+Testes automáticos, módulos compilados e pacote aprovados. A confirmação do caso específico do cliente será acompanhada após a atualização; não há alteração de cadastro nem garantia de resolver outros motivos de recusa de licença.
