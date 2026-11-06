@@ -1,11 +1,11 @@
 {
-  "tag_name": "1.8.13",
+  "tag_name": "1.8.14",
   "assets": [
     {
-      "name": "LowEngine-neddlesSY-v1.8.13-Setup.exe",
-      "browser_download_url": "https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.13/LowEngine-neddlesSY-v1.8.13-Setup.exe",
-      "size": 190479165,
-      "digest": "sha256:037f53e5c5714d2d29b3d4fa5e4fbbf798bb8e2e00f322b6a3b886289848f147"
+      "name": "LowEngine-neddlesSY-v1.8.14-Setup.exe",
+      "browser_download_url": "https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.14/LowEngine-neddlesSY-v1.8.14-Setup.exe",
+      "size": 190156985,
+      "digest": "sha256:09956d699a64b0e1d88af9cb7326fd2ffc7cf33e6399895f152ba39e7052cd1f"
     }
   ]
 }

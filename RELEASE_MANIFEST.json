@@ -1,30 +1,45 @@
 {
   "edition": "neddlesSY Low Engine",
-  "version": "1.8.13",
+  "version": "1.8.14",
   "installer": {
-    "name": "LowEngine-neddlesSY-v1.8.13-Setup.exe",
-    "browser_download_url": "https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.13/LowEngine-neddlesSY-v1.8.13-Setup.exe",
-    "size": 190479165,
-    "digest": "sha256:037f53e5c5714d2d29b3d4fa5e4fbbf798bb8e2e00f322b6a3b886289848f147"
+    "name": "LowEngine-neddlesSY-v1.8.14-Setup.exe",
+    "browser_download_url": "https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.14/LowEngine-neddlesSY-v1.8.14-Setup.exe",
+    "size": 190156985,
+    "digest": "sha256:09956d699a64b0e1d88af9cb7326fd2ffc7cf33e6399895f152ba39e7052cd1f"
   },
   "files": {
-    "LowEngine-neddlesSY-v1.8.13-Setup.exe": {
-      "bytes": 190479165,
-      "sha256": "037f53e5c5714d2d29b3d4fa5e4fbbf798bb8e2e00f322b6a3b886289848f147"
+    "LowEngine-neddlesSY-v1.8.14-Setup.exe": {
+      "bytes": 190156985,
+      "sha256": "09956d699a64b0e1d88af9cb7326fd2ffc7cf33e6399895f152ba39e7052cd1f"
     },
     "LOW_ENGINE_INSTALL.txt": {
       "bytes": 1586,
-      "sha256": "126cc0afb710ed9b6bbffc58112cb71ad6d3b59366a412fd55db874cd7d14fec"
+      "sha256": "54d9327d72a741f3cb6603a8bebf3e1cef71495bdc7869f9f36200401215a98a"
     },
     "PATCHNOTES_LOW_ENGINE.md": {
-      "bytes": 1552,
-      "sha256": "0ce56dad92cb0c51caadb90d3af64861307ac476bc8f841da9de9cccffa9cef2"
+      "bytes": 793,
+      "sha256": "44f658ab0e3af5f17f8f9988e9c43ec5fc5d8e4b9f0a3e559ef4a712a636d667"
     },
     "SHA256_LOW_ENGINE.txt": {
-      "bytes": 104,
-      "sha256": "c425b927ce7659ab4efff4f8de3cd3a7a3f58061afed56b55618bc10c16249e4"
+      "bytes": 105,
+      "sha256": "57a3971bd357579165ffac1797bbe1f22b1bf98982b9df4661e29b028fcc3df8"
     }
   },
-  "normal_edition_unchanged": true,
-  "installer_executed": false
+  "minimum_f2_cycle_seconds": 8.5,
+  "tests": {
+    "source": {
+      "tests": 476,
+      "seconds": 47.718,
+      "skipped": 2,
+      "ok": true
+    },
+    "native": {
+      "tests": 476,
+      "seconds": 40.354,
+      "skipped": 2,
+      "ok": true
+    }
+  },
+  "installer_executed": false,
+  "gameplay_validated": false
 }

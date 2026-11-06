@@ -1,4 +1,4 @@
-neddlesSY Low Engine 1.8.13 - correcao de autenticacao e atualizacao
+neddlesSY Low Engine 1.8.14 - intervalo minimo de F2 de 8,5 segundos
 
 REQUISITO: cliente com mobs rosas e HUD do pacote correspondente.
 Faca uma copia da pasta do Priston e aplique a alteracao nessa copia.
