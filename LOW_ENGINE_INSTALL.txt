@@ -1,4 +1,4 @@
-neddlesSY Low Engine 1.8.14 - intervalo minimo de F2 de 8,5 segundos
+neddlesSY Low Engine 1.8.15 - rajada de ate 1,2 s e F2 triplo
 
 REQUISITO: cliente com mobs rosas e HUD do pacote correspondente.
 Faca uma copia da pasta do Priston e aplique a alteracao nessa copia.
@@ -16,8 +16,10 @@ origem, tamanho e SHA256 do instalador. Atualizacao opcional; falha na consulta
 permite abrir a Low local. A verificacao online de licenca continua obrigatoria.
 
 Apos cada rajada a busca favorece outra regiao. Antes de cada nova rajada,
-o cursor vermelho deve confirmar o contato. Mantidos ate dez cliques/0,25 s,
-movimentos organicos, F2/cooldown e prioridade das rotinas de suporte.
+o cursor vermelho deve confirmar o contato. Ate cinco cliques em no maximo
+1,2 s, mantendo F1 a cada 0,25 s. F2 usa tres tentativas rapidas, com intervalo
+planejado minimo de 0,15 s, e cooldown minimo de 8,5 s desde a ultima tentativa.
+Mantidos movimentos organicos, cooldowns maiores e prioridade do suporte.
 
 Preferencias em %LOCALAPPDATA%\neddlesSY\settings-low.json (ou por instancia).
 Licenca e calibracao compartilhadas com a principal, sem remapear perfis/skills.
