@@ -1,19 +1,26 @@
 # neddlesSY Low Engine
 
-Versão atual: **1.8.15** — rajadas menores e F2 triplo.
+Versão atual: **1.8.16** — rosa, dois cliques e confirmação de buffs.
 
-[Baixar Low Engine 1.8.15](https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.15/LowEngine-neddlesSY-v1.8.15-Setup.exe)
+[Baixar Low Engine 1.8.16](https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.16/LowEngine-neddlesSY-v1.8.16-Setup.exe)
 
-[Patchnotes e arquivos da atualização](https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/tag/1.8.15)
+[Patchnotes e arquivos da atualização](https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/tag/1.8.16)
 
-Cada rajada tem até cinco cliques em no máximo 1,2 s; F1 mantém 250 ms entre
-cliques. Em ataque duplo, F2 usa três tentativas rápidas com intervalo planejado
-mínimo de 150 ms antes de voltar ao F1. O cooldown mínimo entre ciclos F2 continua
+Busca somente pelo rosa, confirma o cursor de ataque e envia até dois cliques
+no mesmo ponto antes de buscar novamente pela cor. Sem rosa, não explora pontos
+aleatórios. F1 mantém 250 ms; F2 usa duas tentativas com intervalo planejado
+mínimo de 150 ms. O cooldown mínimo entre ciclos F2 continua
 em 8,5 s, contado da última tentativa enviada; recargas configuradas maiores
 continuam respeitadas com margem de 0,2 s. Preferências e calibração preservadas.
 
+Buffs preservam a tentativa após o timeout e reveem o efeito antes de repetir.
+Confirmação tardia mantém o timer no clique original, sem outro lote. Com
+referência visual, cooldown sozinho não confirma renovação. Se o efeito estiver
+presente sem prova de origem, continua observando sem inventar um timer novo.
+Só timer/CD e recuperação de falhas reais permanecem.
+
 Feche o macro e execute o instalador como administrador sobre a pasta existente
-neddlesSY Low Engine, sem desinstalar. Abra pelo atalho Low e confira 1.8.15.
+neddlesSY Low Engine, sem desinstalar. Abra pelo atalho Low e confira 1.8.16.
 Se o atualizador antigo não oferecer a versão, use o download manual acima.
 
 A Low exige mobs rosas e HUD correspondente: use uma cópia preparada do cliente.

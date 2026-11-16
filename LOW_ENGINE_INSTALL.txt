@@ -1,4 +1,4 @@
-neddlesSY Low Engine 1.8.15 - rajada de ate 1,2 s e F2 triplo
+neddlesSY Low Engine 1.8.16 - rosa, dois cliques e confirmacao de buffs
 
 REQUISITO: cliente com mobs rosas e HUD do pacote correspondente.
 Faca uma copia da pasta do Priston e aplique a alteracao nessa copia.
@@ -15,10 +15,14 @@ O atalho Low consulta somente neddlesSY-Low-Engine-Releases e valida nome,
 origem, tamanho e SHA256 do instalador. Atualizacao opcional; falha na consulta
 permite abrir a Low local. A verificacao online de licenca continua obrigatoria.
 
-Apos cada rajada a busca favorece outra regiao. Antes de cada nova rajada,
-o cursor vermelho deve confirmar o contato. Ate cinco cliques em no maximo
-1,2 s, mantendo F1 a cada 0,25 s. F2 usa tres tentativas rapidas, com intervalo
-planejado minimo de 0,15 s, e cooldown minimo de 8,5 s desde a ultima tentativa.
+Busca somente pela cor rosa e confirma o cursor de ataque antes de dar ate
+dois cliques no mesmo ponto. Depois procura novamente pela cor, favorecendo
+outros setores disponiveis. Sem rosa, nao explora posicoes aleatorias.
+F1 mantem 0,25 s entre cliques. F2 usa duas tentativas a partir de 0,15 s,
+com cooldown minimo de 8,5 s desde a ultima tentativa e recargas maiores.
+Buffs preservam a tentativa apos timeout e reveem o efeito antes de repetir.
+Confirmacao tardia mantem o timer no clique original. Com referencia visual,
+cooldown sozinho nao confirma renovacao. O modo so timer/CD permanece.
 Mantidos movimentos organicos, cooldowns maiores e prioridade do suporte.
 
 Preferencias em %LOCALAPPDATA%\neddlesSY\settings-low.json (ou por instancia).
