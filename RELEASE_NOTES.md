@@ -1,15 +1,11 @@
-# neddlesSY Low Engine 1.8.16 — Rosa, dois cliques e confirmação de buffs
+# neddlesSY Low Engine1.8.17 — F2 com três cliques sustentados
 
-- Busca alvos **somente pela cor rosa**, confirma o cursor de ataque e dá **até dois cliques no mesmo ponto**. Depois faz uma nova leitura e busca outro candidato pela cor. Sem rosa, deixa de explorar posições aleatórias.
-- Mantém **250 ms entre cliques de F1**. Em ataque duplo, F2 passa a **duas tentativas**, com intervalo planejado mínimo de 150 ms, dentro do limite de dois cliques por aquisição.
-- Mantém o mínimo de **8,5 segundos entre ciclos F2**, contado da última tentativa enviada com sucesso. Cooldowns configurados maiores continuam respeitados com margem de 0,2 s.
-- Preserva a tentativa de buff após o tempo de espera e **confere novamente o efeito antes de repetir**. Se a confirmação chegar atrasada, reconhece o lançamento sem enviar outro lote e mantém o timer contado do clique original.
-- Para buffs com referência visual, **cooldown sozinho não confirma renovação**. Se o efeito estiver presente, mas a origem da renovação for inconclusiva, continua observando sem inventar um novo timer. O modo “Só timer/CD” permanece disponível.
-- Mantém a recuperação de lançamentos que realmente falharam, os intervalos configurados e as antecipações habilitadas. A observação tardia libera o ataque após o timeout.
-- Preserva movimentos e cliques sustentados orgânicos, prioridade de poções, buffs, bolha, reposição e morte/Cidade. Interrupções descartam tentativas pendentes.
+- A rajada passa a **três cliques no mesmo alvo**, com **250 ms entre cliques**, após localizar pelo rosa e confirmar o cursor de ataque.
+- No ataque duplo, F2 recebe **três tentativas**, cada uma com o botão direito **sustentado por120–160 ms**. F2 é reafirmado antes de cada clique, sem intercalar F1 durante a rajada; a busca seguinte retoma F1 depois do último clique.
+- **Nenhuma nova verificação visual** foi adicionada entre os cliques. A busca continua somente pela cor rosa; sem rosa, não explora posições aleatórias.
+- Mantém o cooldown mínimo de **8,5 segundos entre ciclos F2**, contado do último comando enviado. Recargas configuradas maiores continuam respeitadas com margem de0,2 s.
+- Preserva cliques sustentados de F1, movimentos orgânicos, prioridade/cancelamentos do suporte e a correção de confirmação tardia dos buffs da1.8.16. Preferências e calibração existentes são preservadas.
 
-Feche o macro e atualize pelo canal da sua edição. Preferências e calibração existentes são preservadas.
+Feche o macro e atualize pelo canal da sua edição. Atualização exclusiva da Low; a versão normal não foi alterada.
 
-Atualização exclusiva da Low, com canal e instalador próprios. Continua exigindo mobs rosas e o HUD correspondente.
-
-Validada por testes automatizados, simulações de efeitos atrasados e auditoria do pacote. Instalação e gameplay deste instalador não foram executados na preparação.
+Instalador, instruções e SHA256 acompanham a release. Validação por testes automatizados, simulações e auditoria do pacote; instalação e gameplay do instalador final não foram executados na preparação.

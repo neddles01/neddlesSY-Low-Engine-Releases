@@ -1,50 +1,54 @@
 {
   "edition": "neddlesSY Low Engine",
-  "version": "1.8.16",
+  "version": "1.8.17",
   "installer": {
-    "name": "LowEngine-neddlesSY-v1.8.16-Setup.exe",
-    "browser_download_url": "https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.16/LowEngine-neddlesSY-v1.8.16-Setup.exe",
-    "size": 190155909,
-    "digest": "sha256:b0b4e5eba562b15172178f75cc931a342d3ba72a9f280a33f4ea201dd0f95b32"
+    "name": "LowEngine-neddlesSY-v1.8.17-Setup.exe",
+    "browser_download_url": "https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.17/LowEngine-neddlesSY-v1.8.17-Setup.exe",
+    "size": 190160853,
+    "digest": "sha256:20470b03b6531923621f199354a1e9def6252edf023c5e6006aefcac2c3a701c"
   },
   "files": {
-    "LowEngine-neddlesSY-v1.8.16-Setup.exe": {
-      "bytes": 190155909,
-      "sha256": "b0b4e5eba562b15172178f75cc931a342d3ba72a9f280a33f4ea201dd0f95b32"
+    "LowEngine-neddlesSY-v1.8.17-Setup.exe": {
+      "bytes": 190160853,
+      "sha256": "20470b03b6531923621f199354a1e9def6252edf023c5e6006aefcac2c3a701c"
     },
     "LOW_ENGINE_INSTALL.txt": {
-      "bytes": 2042,
-      "sha256": "d8aa52130f6e3d05e651e76c5ff39ab8d8b24559c996ace740f4ed6f4f4f5b50"
+      "bytes": 2251,
+      "sha256": "ddae6ce5bd84a4f66dc03a92c95fb6f21ae6de1260fd4289ba8defce68b7ebe4"
     },
     "PATCHNOTES_LOW_ENGINE.md": {
-      "bytes": 1933,
-      "sha256": "dae26a5f000d3d563851fdbe96478e5be6c8ddd00c30f9708e05cddcef082b4a"
+      "bytes": 1343,
+      "sha256": "725e7a73e4cdfe7f6792a0eee6c919cf7ba4e4eb34d6d27c7eb157e9a4343379"
     },
     "SHA256_LOW_ENGINE.txt": {
       "bytes": 105,
-      "sha256": "2f39c05d72235c76cc4b4086bdbeaeca0ddcd5b552afae1257e3fb60fd5cd445"
+      "sha256": "51f2ee7eb5c635abbaa07c0dc13003778013bfb2abc07af19c9734fb4fe8d009"
     }
   },
   "max_contact_seconds": 1.2,
-  "max_clicks": 2,
+  "max_clicks": 3,
   "f1_interval_ms": 250,
   "pink_candidates_required": true,
   "random_exploration": false,
   "late_buff_reconciliation": true,
   "visual_buff_cd_only_success": false,
-  "f2_attempts": 2,
-  "f2_interval_ms": 150,
+  "f2_attempts": 3,
+  "f2_interval_ms": 250,
+  "f2_hold_ms": [
+    120,
+    160
+  ],
   "minimum_f2_cycle_seconds": 8.5,
   "tests": {
     "source": {
-      "tests": 500,
-      "seconds": 42.541,
+      "tests": 502,
+      "seconds": 41.546,
       "skipped": 2,
       "ok": true
     },
     "native": {
-      "tests": 500,
-      "seconds": 43.507,
+      "tests": 502,
+      "seconds": 37.7,
       "skipped": 2,
       "ok": true
     }

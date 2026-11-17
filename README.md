@@ -1,15 +1,18 @@
 # neddlesSY Low Engine
 
-Versão atual: **1.8.16** — rosa, dois cliques e confirmação de buffs.
+Versão atual: **1.8.17** — F2 com três cliques sustentados.
 
-[Baixar Low Engine 1.8.16](https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.16/LowEngine-neddlesSY-v1.8.16-Setup.exe)
+[Baixar Low Engine 1.8.17](https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/download/1.8.17/LowEngine-neddlesSY-v1.8.17-Setup.exe)
 
-[Patchnotes e arquivos da atualização](https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/tag/1.8.16)
+[Patchnotes e arquivos da atualização](https://github.com/neddles01/neddlesSY-Low-Engine-Releases/releases/tag/1.8.17)
 
-Busca somente pelo rosa, confirma o cursor de ataque e envia até dois cliques
+Busca somente pelo rosa, confirma o cursor de ataque e envia até três cliques
 no mesmo ponto antes de buscar novamente pela cor. Sem rosa, não explora pontos
-aleatórios. F1 mantém 250 ms; F2 usa duas tentativas com intervalo planejado
-mínimo de 150 ms. O cooldown mínimo entre ciclos F2 continua
+aleatórios. F1 mantém 250 ms; F2 usa três tentativas com intervalo de 250 ms.
+Cada clique F2 sustenta o botão direito por 120–160 ms; F2 é reafirmado antes
+de cada clique, sem intercalar F1. A busca seguinte retoma F1 após a rajada.
+Nenhuma verificação visual foi acrescentada entre os cliques.
+O cooldown mínimo entre ciclos F2 continua
 em 8,5 s, contado da última tentativa enviada; recargas configuradas maiores
 continuam respeitadas com margem de 0,2 s. Preferências e calibração preservadas.
 
@@ -20,7 +23,7 @@ presente sem prova de origem, continua observando sem inventar um timer novo.
 Só timer/CD e recuperação de falhas reais permanecem.
 
 Feche o macro e execute o instalador como administrador sobre a pasta existente
-neddlesSY Low Engine, sem desinstalar. Abra pelo atalho Low e confira 1.8.16.
+neddlesSY Low Engine, sem desinstalar. Abra pelo atalho Low e confira 1.8.17.
 Se o atualizador antigo não oferecer a versão, use o download manual acima.
 
 A Low exige mobs rosas e HUD correspondente: use uma cópia preparada do cliente.

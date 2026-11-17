@@ -1,4 +1,4 @@
-neddlesSY Low Engine 1.8.16 - rosa, dois cliques e confirmacao de buffs
+neddlesSY Low Engine 1.8.17 - F2 com tres cliques sustentados
 
 REQUISITO: cliente com mobs rosas e HUD do pacote correspondente.
 Faca uma copia da pasta do Priston e aplique a alteracao nessa copia.
@@ -16,14 +16,17 @@ origem, tamanho e SHA256 do instalador. Atualizacao opcional; falha na consulta
 permite abrir a Low local. A verificacao online de licenca continua obrigatoria.
 
 Busca somente pela cor rosa e confirma o cursor de ataque antes de dar ate
-dois cliques no mesmo ponto. Depois procura novamente pela cor, favorecendo
+tres cliques no mesmo ponto. Depois procura novamente pela cor, favorecendo
 outros setores disponiveis. Sem rosa, nao explora posicoes aleatorias.
-F1 mantem 0,25 s entre cliques. F2 usa duas tentativas a partir de 0,15 s,
+F1 mantem 0,25 s entre cliques e hold de70-120 ms. F2 usa tres tentativas
+com intervalo de0,25 s e botao direito sustentado por120-160 ms em cada clique,
 com cooldown minimo de 8,5 s desde a ultima tentativa e recargas maiores.
 Buffs preservam a tentativa apos timeout e reveem o efeito antes de repetir.
 Confirmacao tardia mantem o timer no clique original. Com referencia visual,
 cooldown sozinho nao confirma renovacao. O modo so timer/CD permanece.
 Mantidos movimentos organicos, cooldowns maiores e prioridade do suporte.
+F2 e reafirmado antes de cada clique, sem intercalar F1 durante a rajada.
+Nao foram acrescentadas verificacoes visuais entre os cliques.
 
 Preferencias em %LOCALAPPDATA%\neddlesSY\settings-low.json (ou por instancia).
 Licenca e calibracao compartilhadas com a principal, sem remapear perfis/skills.
